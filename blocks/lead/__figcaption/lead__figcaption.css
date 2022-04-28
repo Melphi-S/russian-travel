@@ -1,0 +1,21 @@
+.lead__figcaption {
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 900px) {
+    .lead__figcaption {
+        padding-left: 24px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .lead__figcaption {
+        padding-left: 16px;
+    }
+}
